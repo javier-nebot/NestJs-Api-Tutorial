@@ -70,8 +70,8 @@ export class AuthService {
       {
         expiresIn: '15m',
         secret: secret,
-      }
-    )
+      },
+    );
 
     return {
       access_token: token,
